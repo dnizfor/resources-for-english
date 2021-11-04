@@ -1,70 +1,108 @@
-# Getting Started with Create React App
+[PROJECT IMAGER](https://github.com/facebook/create-react-app)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Resources For English
 
-## Available Scripts
+Resources For English is a platform which offers a collection of free resources links for learning english. You will find :
+- Most common words 
+- Beginner Level Tv Shows
+- Online Courses
+- Listening Practices 
+- Work Books 
+- Reading Pratices
 
-In the project directory, you can run:
+Plus it's all free !
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+# Contributing
 
-### `npm test`
+First of all, thank you for taking the time to contribute! :+1::tada:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+When contributing to this repository, please first discuss the change you wish to make via issue,
+email, or any other method with the owners of this repository before making a change.
 
-### `npm run build`
+Please note we have a code of conduct, please follow it in all your interactions with the project.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Guide to add new courses
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Fill this Google Form
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Add your course by filling this [Google Form](https://forms.gle/pbe9LwPMLWXsXhMHA)
 
-### `npm run eject`
+### Add a new object in code
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+To add new course please follow steps:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. Fork this repo
+2. Go to the folder `/src/data`
+3. Open the `resourcesData.js`
+4. Add a new object, Example as follows:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+```
+   {
+        title : "title of course",
+        language :  "language of course",
+        categories  : "category 1,",
+        link :  "https://linkOfCouse.com/",
+        description : "a short description of course",
+        image: "https://linkToimage.com/image.png" // this is optional
+    },
+    {
+        title: "Eng30",
+        language: "English",
+        categories: "courses",
+        link: "https://eng30.com/",
+        image: "",
+        description: "basic english course"
+    }
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+To add a new category:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+1. Fork this repo
+2. Go to the folder `/src/data`
+3. Open the `categoriesData.js`
+4. Add a new object, Example as follows:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```
+    {
+        title "Title of Category",
+    },
+    {
+        title "Other",
+    },
 
-### Code Splitting
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+## Environment setup
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### To run locally
 
-### Making a Progressive Web App
+- You'll need to have [node](https://nodejs.org/en/) installed in your system.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+```
+npm install 
+```
 
-### Advanced Configuration
+- Run development server:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+```
+npm start
+```
 
-### Deployment
+- Open the Web browser to `http://localhost:3000/`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+### To build the Production package
 
-### `npm run build` fails to minify
+```
+npm run build
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+# License
+
+Resources For English is licensed under the Creative Commons Zero v1.0 Universal
+
+

@@ -1,5 +1,9 @@
 export default function getDatasByCategory(datas, category ){
 
+    if(category === ""){
+        return datas
+    }
+
 
     let wantedDatas = []
 

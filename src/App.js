@@ -5,8 +5,9 @@ import {
   Route,
 } from "react-router-dom";
 import Footer from "./components/Footer";
+import Resources from "./pages/Resources"
 
-import Navbar from "./components/Navbar";
+
 import Home from "./pages/Home";
 
 
@@ -15,9 +16,10 @@ export default function App() {
     <Router>
       <div>
 
-      <Navbar />
-
         <Switch>
+        <Route path="/resources">
+            <Resources />
+          </Route>
           <Route path="/about">
             <Home />
           </Route>

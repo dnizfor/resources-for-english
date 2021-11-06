@@ -4,6 +4,7 @@ import { useSelector } from 'react-redux'
 
 import Card from '../components/Card'
 import HomeHeader from "../components/HomeHeader"
+import Navbar from "../components/Navbar";
 
 import getData from "../modules/getDatasByCategory"
 
@@ -16,38 +17,43 @@ export default function Home() {
 
 
     return (
-        <div className='container mt-5'>
+        <div>
+            <Navbar />
 
-            <HomeHeader/>
+            <div className='container mt-5'>
 
-
-             {/* Print Datas */}
-
-            {
-                categories.map(({ title },index) => (
-
-                    <div key={index} className='row'>
-
-                        <h5 className='fw-bold mt-5 mb-3'>{title}</h5>
+                <HomeHeader />
 
 
-                        {
-                            getData(resourcesData, title).map((data,index) => (
-                                
+                {/* Print Datas */}
 
-                                <div key={index} className='col'>
-                                    <Card data={data} />
-                                    {console.log(data)}
-                                </div>
+                {
+                    categories.map(({ title }, index) => (
 
-                            ))
-                        }
+                        <div key={index} className='row'>
 
-                    </div>
+                            <h5 className='fw-bold mt-5 mb-3'>{title}</h5>
 
-                ))
-            }
 
+                            {
+                                getData(resourcesData, title).map((data, index) => (
+
+
+                                    <div key={index} className='col'>
+                                        <Card data={data} />
+                                        {console.log(data)}
+                                    </div>
+
+                                ))
+                            }
+
+                        </div>
+
+                    ))
+                }
+
+            </div>
         </div>
+
     )
 }

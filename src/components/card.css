@@ -5,6 +5,10 @@
     
 
 }
+.card{
+    width: 300px ;
+    margin: auto;
+}
 .card-text-area{
     height: 50px;
     overflow: hidden;

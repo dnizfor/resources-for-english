@@ -7,7 +7,7 @@ export default function HomeHeader() {
 
             <div className="container">
                 <div className="row">
-                    <div className="col-6 d-flex flex-column align-items-center text-center">
+                    <div className="col-12 col-lg-6 d-flex flex-column align-items-center text-center">
                         <img className="img-fluid w-50" src="https://cdn-icons-png.flaticon.com/512/2628/2628757.png" alt="" />
 
                         <div className="mt-5 py-2">
@@ -25,7 +25,7 @@ export default function HomeHeader() {
 
 
                     </div>
-                    <div className="col-6">
+                    <div className="col-12 col-lg-6">
 
                     </div>
                 </div>

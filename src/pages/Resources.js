@@ -20,9 +20,6 @@ export default function Resources() {
          
         }else{
             document.getElementById("sidenav").style.width = 0
-        
-
-
         }
   
         

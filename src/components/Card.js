@@ -14,7 +14,7 @@ export default function Card({data}) {
                 <div className ="card-text-area">
                 <p className ="card-text">{data.description}</p>
                 </div>
-                <a  target="_blank" rel="noreferrer"  href={data.link}  className ="btn btn-primary card-button">Go somewhere</a>
+                <a  target="_blank" rel="noreferrer"  href={data.link}  className ="btn btn-primary card-button">Look!</a>
                 </div>
             </div>
 

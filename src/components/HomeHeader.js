@@ -7,7 +7,7 @@ export default function HomeHeader() {
 
             <div className="container">
                 <div className="row">
-                    <div className="col-12 col-lg-6 d-flex flex-column align-items-center text-center">
+                    <div className="col-12 d-flex flex-column align-items-center text-center">
                         <img className="img-fluid w-50" src="https://cdn-icons-png.flaticon.com/512/2628/2628757.png" alt="" />
 
                         <div className="mt-5 py-2">
@@ -18,16 +18,13 @@ export default function HomeHeader() {
                             <div className="my-2 "><a className="btn text-primary" href="https://github.com/dnizfor/resources-for-english">This project is open source.</a></div>
 
                             <div >
-                            <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" className="twitter-share-button btn btn-primary me-2" data-text="Learn Free English ! Most common words , series ,free books and more " data-hashtags="learnenglish" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-                            <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" className="twitter-share-button btn btn-primary ms-2" data-text="Learn Free English ! Most common words , series ,free books and more " data-hashtags="learnenglish" data-show-count="false">Linkedn</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                            <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-text="Learn Free English ! Most common words , series ,free books and more www.resourcesforenglish.github.com" data-show-count="false" data-size="large">Tweet</a>
                             </div>
                         </div>
 
 
                     </div>
-                    <div className="col-12 col-lg-6">
-
-                    </div>
+                  
                 </div>
             </div>
 

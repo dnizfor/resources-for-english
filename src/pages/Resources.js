@@ -63,7 +63,7 @@ export default function Resources() {
                         <div className="row ">
 
                             {
-                                getData(resourcesData, category).map((data, index) => (
+                                getData(resourcesData, category,true).map((data, index) => (
 
 
                                     <div key={index} className='col mt-2'>

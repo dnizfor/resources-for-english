@@ -39,7 +39,7 @@ const resources = [
     title: "BBC Extr@",
     description:
       "Sitcom for learning english. ",
-    link: "https://diziyleogren.com/blog/ingilizce-dizi-ve-filmlerde-en-sik-kullanilan-5000-kelime",
+    link: "https://www.youtube.com/playlist?list=PLdYSWqTrWP2jyqWIdjsATbrb11uN_BMrF",
     category: "Series",
     image:
       "https://i.pinimg.com/originals/ae/2a/bf/ae2abf148b66b376e7eb3b4bd76cd827.jpg",

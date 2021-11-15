@@ -17,6 +17,10 @@ export default function Navbar() {
                                 <Link className="nav-link active " to="/resources">All Resoursces</Link>
                             </li>
                             <li className="nav-item ">
+                                <a className="nav-link active " href="https://www.buymeacoffee.com/dnizfor" rel="noreferrer" target="_blank" aria-current="page" to="/">Donate</a>
+                            </li>
+                            
+                            <li className="nav-item ">
                                 <a className="nav-link active " href="https://forms.gle/RYRkZKYr7UGoNgWv6" rel="noreferrer" target="_blank" aria-current="page" to="/">Add Resource</a>
                             </li>
                         </ul>

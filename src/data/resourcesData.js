@@ -175,7 +175,7 @@ const resources = [
     title: "BBC Learning English",
     description:
       "The lessons teach English concepts while discussing certain topics (such as money or the news). Lessons can include videos, audio clips and text descriptions.",
-    link: "https://www.bbc.co.uk/learningenglish/english/",
+    link: "https://www.bbc.co.uk/learningenglish/english/course/emw",
     category: "Courses",
     image:
       "https://i.pinimg.com/originals/2e/21/7d/2e217d3e25984d2dce247580fa2ed3e7.jpg",
@@ -189,6 +189,79 @@ const resources = [
     image:
       "https://i.pinimg.com/originals/80/17/11/801711f1b9b03de97ab28f64aeaabc8f.jpg",
   },
+  {
+    title: "English for Entrepreneurs",
+    description:
+      "This course is designed for non-native English speakers who are interested in learning more about the global business economy and entrepreneurship.",
+    link: "https://bit.ly/3Hmn3yW",
+    category: "Bussines",
+    image:
+      "https://i.pinimg.com/564x/62/f5/a7/62f5a729c8c23e36892a7f0f1ef6abe1.jpg",
+  },
+  {
+    title: "BBC English at Work",
+    description:
+      "Do you use English in your job? Are you looking for work? Then this is the series for you. Watch our animated series and learn some of the language and etiquette that you need to succeed in the English-speaking workplace.",
+    link: "https://www.youtube.com/playlist?list=PLcetZ6gSk969oGvAI0e4_PgVnlGbm64bp",
+    category: "Bussines",
+    image:
+      "https://i.pinimg.com/originals/d6/ea/0f/d6ea0f9d9d01cc2a3feb9374e24cfe2e.jpg",
+  },
+  {
+    title: "English Business Pod",
+    description:
+      "Business English Pod lessons cover a wide range of business English topics and skills, including: English meetings, presentations in English, talking on the telephoning, job interviews in English, negotiating, business English conversation, and more. ",
+    link: "https://www.youtube.com/c/Businessenglishpod/playlists",
+    category: "Bussines",
+    image:
+      "https://i.pinimg.com/originals/52/5f/d2/525fd2e9df4f982bf1fec5177236e44a.jpg",
+  },
+  {
+    title: "English for TEM",
+    description:
+      "This course is designed for non-native English speakers who are interested in improving their English skills in the sciences. In this course, you will explore some of the most innovative areas of scientific study, while expanding your vocabulary and the language skills needed to share scientific information within your community.",
+    link: "https://bit.ly/3DkPwmp",
+    category: "Bussines",
+    image:
+      "https://i.pinimg.com/originals/d4/ae/2b/d4ae2b9439d8184591bf61ebe20e65d5.jpg",
+  },
+  {
+    title: "English for Finance",
+    description:
+      "Learn basic English for everyday situations and improve your listening skills with this online English language course.",
+    link: "https://bit.ly/3FjrnNv",
+    category: "Bussines",
+    image:
+      "https://i.pinimg.com/564x/c2/48/a7/c248a75f75070abcdf335b34dad08bb3.jpg",
+  },
+  {
+    title: "English For Medicine",
+    description:
+      "Learn basic English for everyday situations and improve your listening skills with this online English language course.",
+    link: "https://bit.ly/3Dk81Y7",
+    category: "Bussines",
+    image:
+      "https://i.pinimg.com/564x/33/29/19/3329192b44626491d66de50e14f86ac7.jpg",
+  },
+  {
+    title: "English for Journalists",
+    description:
+      "This course is designed for non-native English speakers who are interested in developing the skills needed for a career in modern journalism.",
+    link: "https://www.coursera.org/learn/journalism",
+    category: "Bussines",
+    image:
+      "https://i.pinimg.com/564x/c0/8e/2d/c08e2dbb7b2084ce3ae1c2b271d5bcbc.jpg",
+  },
+  {
+    title: "English Career Development ",
+    description:
+      "Learn basic English for everyday situations and improve your listening skills with this online English language course.",
+    link: "https://bit.ly/3kFAX5q",
+    category: "Bussines",
+    image:
+      "https://i.pinimg.com/564x/df/0d/51/df0d518cf708b9952fecb59ca8f33668.jpg",
+  },
+
   
 ]
 

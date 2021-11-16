@@ -20,6 +20,9 @@ const categories = [
     {
         title: 'Reading'
     },
+    {
+        title: 'Bussines'
+    },
 ]
 
 export default categories

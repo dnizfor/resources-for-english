@@ -1,6 +1,7 @@
 import React from 'react'
 
 import { useSelector } from 'react-redux'
+import { Link } from 'react-router-dom';
 
 import Card from '../components/Card'
 import HomeHeader from "../components/HomeHeader"
@@ -30,9 +31,27 @@ export default function Home() {
                 {
                     categories.map(({ title }, index) => (
 
-                        <div key={index} className='row'>
+                        <div key={index} className='row mt-5 mb-3'>
 
-                            <h5 className='fw-bold mt-5 mb-3'>{title}</h5>
+                            <div className="col-12 d-flex justify-content-between align-items-cenet ">
+
+                                <div>
+                                <h5 className='fw-bold '>{title}</h5>
+
+                                </div>
+
+                                <div>
+
+                                <Link className='fw-bold nav-link text-dark' to="/resources">See All Resources >></Link>
+
+                                </div>
+                         
+     
+
+
+                            </div>
+
+                            
 
 
                             {

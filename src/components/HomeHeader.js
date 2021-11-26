@@ -34,6 +34,7 @@ export default function HomeHeader() {
                             <div >
                                 <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-text="Learn Free English ! Most common words , series ,free books and more www.resourcesforenglish.github.com" data-show-count="false" data-size="large">Tweet</a>
                             </div>
+                           
                         </div>
 
 
@@ -42,6 +43,23 @@ export default function HomeHeader() {
                 </div>
             </div>
 
+
+            <div className="container my-3">
+                <div className="row">
+                    <div className="col">
+                    <div className="">
+                            <iframe title="substack" src="https://englishlearner.substack.com/embed" className="w-100" height="300" style={{border:"1px solid #EEE", background:"white"}} frameborder="0" scrolling="no"></iframe>
+                            </div>
+
+                    </div>
+
+                </div>
+                
+            </div>
+
         </div>
+        
+
+        
     )
 }

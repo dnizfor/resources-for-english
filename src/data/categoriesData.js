@@ -21,7 +21,7 @@ const categories = [
         title: 'Reading'
     },
     {
-        title: 'Bussines'
+        title: 'Business'
     },
 ]
 

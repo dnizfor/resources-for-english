@@ -12,6 +12,9 @@ Resources For English is a platform which offers a collection of free resources 
 Plus it's all free !
 ![](https://user-images.githubusercontent.com/86577022/140377512-ac3b5eed-5933-4926-a9e2-2e35cada2e21.png)
 
+# Now Live !
+
+- https://resourcesforenglish.github.io/
 
 # Contributing
 

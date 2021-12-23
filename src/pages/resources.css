@@ -28,3 +28,10 @@
         display: block;
     }
 }
+@media(min-width : 900px){
+    .sidenav{
+        width: 200px;
+        height: 100vh;
+        
+    }
+}

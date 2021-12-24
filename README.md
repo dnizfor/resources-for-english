@@ -14,7 +14,7 @@ Plus it's all free !
 
 # Now Live !
 
-- https://resourcesforenglish.github.io/
+- resourcesforenglish.surge.sh
 
 # Contributing
 

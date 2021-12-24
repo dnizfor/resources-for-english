@@ -14,7 +14,7 @@ Plus it's all free !
 
 # Now Live !
 
-- [resourcesforenglish.surge.sh](resourcesforenglish.surge.sh) 
+- [http://resourcesforenglish.surge.sh/](http://resourcesforenglish.surge.sh/) 
 
 # Contributing
 
